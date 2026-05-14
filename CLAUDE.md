@@ -15,9 +15,9 @@ This file provides guidance to Claude Code when working with code in this reposi
 | `.perseus/papyrus.md` | Output format for all four modes |
 | `.perseus/manifesto.md` | Full persona pool, stereotypes, domain rules |
 
-## The Pool (16 personas)
+## The Pool (20 personas)
 
-Engineering Lead, Game Design Lead, Game Director, UI/UX Designer, QA Lead, Narrative Writer, Tools Lead, Producer, Sound Designer, VFX Artist, Art Director, External Playtester, Hardcore Fan, Genre Fan, Casual Gamer, Telemetry Analyst.
+Engineering Lead, Game Design Lead, Game Director, UI/UX Designer, QA Lead, Narrative Writer, Tools Lead, Producer, Sound Designer, VFX Artist, Art Director, External Playtester, Hardcore Fan, Genre Fan, Casual Gamer, Telemetry Analyst, Release Manager, Marketing Consultant, Community Manager, Content Creator.
 
 The Hardcore Fan is special: they speak about the specific project being reviewed, not games in general. They rely on CLAUDE.md in the target project.
 
@@ -40,4 +40,4 @@ Installs to `~/.claude/plugins/cache/local/perseus/1.0.0/`. User-editable config
 - `~/.claude/perseus/papyrus.md`
 - `~/.claude/perseus/manifesto.md`
 
-Re-run `install-skill.sh` to pick up changes.
+When modifying the skill, update `claude-skill/skills/perseus/SKILL.md` in this repo. Commit and push, then re-run `install-skill.sh` to pick up changes (the installer pulls from GitHub).

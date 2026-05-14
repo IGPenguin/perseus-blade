@@ -50,7 +50,7 @@ Mode is auto-suggested based on context. Name it explicitly to skip the suggesti
 | Game Director | Vision, coherence, what belongs | *"This doesn't belong in our game. Cut it."* |
 | Producer | Scope, timeline, reality check | *"How long does this actually take? The real number."* |
 | Engineer | Architecture, debt, implementation risk | *"That'll be a nightmare to maintain."* |
-| Game Desiger | Systems, feedback loops, balance | *"The player has no signal their choice mattered."* |
+| Game Designer | Systems, feedback loops, balance | *"The player has no signal their choice mattered."* |
 | Art Director | Style coherence, visual identity | *"Players will read it as a bug."* |
 | Narrative Writer | Tone, character voice, world coherence | *"This character would never say that."* |
 | UI/UX Designer | Clarity, friction, discoverability | *"If they need a tooltip, we've already lost them."* |
@@ -63,6 +63,10 @@ Mode is auto-suggested based on context. Name it explicitly to skip the suggesti
 | Hardcore Fan | THIS specific project, its soul | *"Players who love this game for X will feel betrayed."* |
 | Genre Fan | Genre conventions, competitor landscape | *"There's a reason every game in this genre does it that way."* |
 | Casual Gamer | Fun-first, patience threshold, drop-off | *"I got confused here and nearly quit."* |
+| Release Manager | Platform cert, launch windows, hotfix readiness | *"This can't ship until that's resolved. Cert is in three days."* |
+| Marketing Consultant | Market positioning, hooks, what sells to strangers | *"Nobody outside this room knows why they should care."* |
+| Community Manager | Player sentiment, PR risk, how it lands publicly | *"This is going to be a screenshot with no context."* |
+| Content Creator | Watchability, clip potential, fun to watch vs. play | *"Dead for three minutes. A viewer skips."* |
 
 ### History
 
