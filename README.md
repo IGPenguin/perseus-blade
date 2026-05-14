@@ -4,7 +4,7 @@
 
 ## ⚔️ Your virtual AAA studio, assembled to slay
 
-**Perseus Blade** is a Claude Code skill that summons a virtual strike team to review your game project - code, features, 🔥 **[Hades Gate](https://github.com/IGPenguin/hades-gate)** proposals, 🌊 **[Styx Flow](https://github.com/IGPenguin/styx-flow)** tasks, UI, art... Each voice speaks in their authentic stereotype.
+**Perseus Blade** is a Claude Code skill that summons a virtual strike team to review your game project - code, art, features, 🔥 **[Hades Gate](https://github.com/IGPenguin/hades-gate)** proposals, 🌊 **[Styx Flow](https://github.com/IGPenguin/styx-flow)** tasks, etc. Each voice speaks in their authentic stereotype.
 
 ---
 
