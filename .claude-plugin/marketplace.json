@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "perseus-blade",
+  "description": "Perseus Blade — Claude Code skills by Adam Svoboda",
+  "owner": {
+    "name": "Adam Svoboda",
+    "email": "eidamsvoboda@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "perseus",
+      "description": "Perseus Blade — virtual AAA studio that slices through your gamedev with 16 expert persona voices",
+      "author": {
+        "name": "Adam Svoboda"
+      },
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/IGPenguin/perseus-blade.git",
+        "path": "claude-skill",
+        "ref": "chaos"
+      }
+    }
+  ]
+}
