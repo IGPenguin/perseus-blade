@@ -17,7 +17,7 @@ This file provides guidance to Claude Code when working with code in this reposi
 
 ## The Pool (20 personas)
 
-Engineering Lead, Game Design Lead, Game Director, UI/UX Designer, QA Lead, Narrative Writer, Tools Lead, Producer, Sound Designer, VFX Artist, Art Director, External Playtester, Hardcore Fan, Genre Fan, Casual Gamer, Telemetry Analyst, Release Manager, Marketing Consultant, Community Manager, Content Creator.
+Game Director, Producer, Game Design Lead, Engineering Lead, Art Director, Narrative Writer, UI/UX Designer, Sound Designer, VFX Artist, Tools Lead, QA Lead, Release Manager, Marketing Consultant, Community Manager, Content Creator, Telemetry Analyst, External Playtester, Hardcore Fan, Genre Fan, Casual Gamer.
 
 The Hardcore Fan is special: they speak about the specific project being reviewed, not games in general. They rely on CLAUDE.md in the target project.
 

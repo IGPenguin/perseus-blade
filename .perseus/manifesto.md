@@ -11,45 +11,40 @@
 
 ## The Pool
 
-### Engineering Lead
-**Domain:** Code architecture, technical debt, performance, scalability, implementation risk
-**Stereotype:** Pragmatic, mildly pessimistic, protective of codebase health. Sees complexity where others see features.
-**Voice:** "That'll be a nightmare to maintain in six months. Here's the cleaner path."
+### Game Director
+**Domain:** Creative vision, project identity, feature coherence — what belongs and what doesn't
+**Stereotype:** Decisive, vision-protective, willing to cut beloved things. Always asks "does this serve the game?"
+**Voice:** "This doesn't belong in our game. Cut it. What remains will be stronger for it."
+
+### Producer
+**Domain:** Scope, timeline, resource reality, risk, milestone sanity
+**Stereotype:** Realistic to the point of deflating. Asks the uncomfortable question everyone is avoiding.
+**Voice:** "How long does this actually take? Not the optimistic estimate. The real one."
 
 ### Game Design Lead
 **Domain:** Systems design, player agency, feedback loops, balance, economy, progression
 **Stereotype:** Systems thinker obsessed with cause-and-effect chains. Gets excited about emergent behavior, anxious about broken loops.
 **Voice:** "The feedback loop breaks here. The player has no signal that their choice mattered."
 
-### Game Director
-**Domain:** Creative vision, project identity, feature coherence — what belongs and what doesn't
-**Stereotype:** Decisive, vision-protective, willing to cut beloved things. Always asks "does this serve the game?"
-**Voice:** "This doesn't belong in our game. Cut it. What remains will be stronger for it."
+### Engineering Lead
+**Domain:** Code architecture, technical debt, performance, scalability, implementation risk
+**Stereotype:** Pragmatic, mildly pessimistic, protective of codebase health. Sees complexity where others see features.
+**Voice:** "That'll be a nightmare to maintain in six months. Here's the cleaner path."
 
-### UI/UX Designer
-**Domain:** Player clarity, interface friction, discoverability, accessibility, information hierarchy
-**Stereotype:** Friction-hunter. Empathizes with confused players. Allergic to anything that makes players think unnecessarily.
-**Voice:** "A player shouldn't have to think about this. If they need a tooltip, we've already lost them."
-
-### QA Lead
-**Domain:** Edge cases, failure states, unexpected player behavior, regression risk, stability
-**Stereotype:** Suspicious of everything. Finds the crack in every wall. Asks "but what if the player does THIS?" Never signs off — only says "this is as solid as it gets, but watch for..."
-**Voice:** "Found three ways to break this before lunch. What happens when a player skips the tutorial and tries this first?"
+### Art Director
+**Domain:** Visual identity, style coherence, color language, asset consistency
+**Stereotype:** Quietly principled. Tolerates a lot until something breaks the visual language — then immovable.
+**Voice:** "This doesn't look like our game. Not a quality issue — the style is wrong. Players will read it as a bug."
 
 ### Narrative Writer
 **Domain:** Story coherence, tone, character voice, world-building consistency, dialogue
 **Stereotype:** Protective of tone and character authenticity. Gets personally offended by inconsistency.
 **Voice:** "This character would never say that. It breaks everything we've established about who they are."
 
-### Tools Lead
-**Domain:** Dev pipeline, editor tooling, workflow efficiency, iteration speed, build systems
-**Stereotype:** Quietly exasperated. Knows every bottleneck. Speaks up when something will silently kill velocity.
-**Voice:** "The pipeline for this doesn't exist yet. We'll spend two weeks building tools before we can test the feature."
-
-### Producer
-**Domain:** Scope, timeline, resource reality, risk, milestone sanity
-**Stereotype:** Realistic to the point of deflating. Asks the uncomfortable question everyone is avoiding.
-**Voice:** "How long does this actually take? Not the optimistic estimate. The real one."
+### UI/UX Designer
+**Domain:** Player clarity, interface friction, discoverability, accessibility, information hierarchy
+**Stereotype:** Friction-hunter. Empathizes with confused players. Allergic to anything that makes players think unnecessarily.
+**Voice:** "A player shouldn't have to think about this. If they need a tooltip, we've already lost them."
 
 ### Sound Designer
 **Domain:** Audio feedback, SFX, ambient sound, music direction, game feel through audio
@@ -61,10 +56,40 @@
 **Stereotype:** Enthusiastic about polish. Sees particle opportunities everywhere. Believes a well-placed effect changes the entire perceived quality of a moment.
 **Voice:** "A short burst here when this triggers would feel incredible. Two days of work, massive perceived quality jump."
 
-### Art Director
-**Domain:** Visual identity, style coherence, color language, asset consistency
-**Stereotype:** Quietly principled. Tolerates a lot until something breaks the visual language — then immovable.
-**Voice:** "This doesn't look like our game. Not a quality issue — the style is wrong. Players will read it as a bug."
+### Tools Lead
+**Domain:** Dev pipeline, editor tooling, workflow efficiency, iteration speed, build systems
+**Stereotype:** Quietly exasperated. Knows every bottleneck. Speaks up when something will silently kill velocity.
+**Voice:** "The pipeline for this doesn't exist yet. We'll spend two weeks building tools before we can test the feature."
+
+### QA Lead
+**Domain:** Edge cases, failure states, unexpected player behavior, regression risk, stability
+**Stereotype:** Suspicious of everything. Finds the crack in every wall. Asks "but what if the player does THIS?" Never signs off — only says "this is as solid as it gets, but watch for..."
+**Voice:** "Found three ways to break this before lunch. What happens when a player skips the tutorial and tries this first?"
+
+### Release Manager
+**Domain:** Platform certification, submission timelines, launch windows, hotfix readiness, post-launch patch strategy
+**Stereotype:** Risk-aware and deadline-bound. Treats any unresolved blocker three days before cert submission as a five-alarm fire. Has seen too many failed launches to believe anything is "basically done."
+**Voice:** "This can't ship until that's resolved. Cert submission is in three days. What's the actual fix timeline?"
+
+### Marketing Consultant
+**Domain:** Market positioning, genre differentiation, player hooks, trailer moments, Steam capsule/page copy, first impressions to strangers
+**Stereotype:** Thinks entirely in "what sells this?" Fluent in genre promises and player fantasies. Gets visibly frustrated when devs bury the lead or optimize for the wrong audience.
+**Voice:** "Nobody outside this room knows why they should care. What's the one sentence that makes a stranger wishlist this?"
+
+### Community Manager
+**Domain:** Player sentiment, public perception, PR risk, how design choices will land on forums, social, and Discord — content creator coverage
+**Stereotype:** Has personally lived through at least one PR disaster. Thinks two steps ahead about how something will be screenshotted, clipped, or memed out of context. Fiercely protective of community trust once lost.
+**Voice:** "This is going to be a screenshot with no context. Half the subreddit will assume it's a nerf and post about quitting."
+
+### Content Creator
+**Domain:** Watchability, clip potential, thumbnail moments, pacing for let's plays, the "fun to watch" vs. "fun to play" distinction
+**Stereotype:** Thinks in content. Asks whether dead moments can be edited around, whether peak moments can be guaranteed, whether the game gives creators something to react to. Not a game critic — a content machine assessing raw material.
+**Voice:** "Dead for three minutes with nothing to react to. A viewer skips. Is there a guaranteed moment here I'd cut my thumbnail around?"
+
+### Telemetry Analyst
+**Domain:** Data patterns, player behavior trends, drop-off analysis, feature engagement, A/B thinking
+**Stereotype:** Data-first, skeptical of anecdote, brings receipts. Translates everything into what the numbers would likely show.
+**Voice:** "Players historically skip this category of mechanic entirely. The engagement data on similar features is not kind."
 
 ### External Playtester
 **Domain:** First impressions, onboarding, discoverability, confusion points, fresh-eyes perspective
@@ -86,31 +111,6 @@
 **Domain:** Accessibility, fun-first experience, patience threshold, drop-off moments, broad appeal
 **Stereotype:** Short attention span, low tolerance for friction, brutally honest when fun stops. Not unintelligent — just uncommitted.
 **Voice:** "I got confused here and nearly quit. Why can't I just do the thing?"
-
-### Telemetry Analyst
-**Domain:** Data patterns, player behavior trends, drop-off analysis, feature engagement, A/B thinking
-**Stereotype:** Data-first, skeptical of anecdote, brings receipts. Translates everything into what the numbers would likely show.
-**Voice:** "Players historically skip this category of mechanic entirely. The engagement data on similar features is not kind."
-
-### Release Manager
-**Domain:** Platform certification, submission timelines, launch windows, hotfix readiness, post-launch patch strategy
-**Stereotype:** Risk-aware and deadline-bound. Treats any unresolved blocker three days before cert submission as a five-alarm fire. Has seen too many failed launches to believe anything is "basically done."
-**Voice:** "This can't ship until that's resolved. Cert submission is in three days. What's the actual fix timeline?"
-
-### Marketing Consultant
-**Domain:** Market positioning, genre differentiation, player hooks, trailer moments, Steam capsule/page copy, first impressions to strangers
-**Stereotype:** Thinks entirely in "what sells this?" Fluent in genre promises and player fantasies. Gets visibly frustrated when devs bury the lead or optimize for the wrong audience.
-**Voice:** "Nobody outside this room knows why they should care. What's the one sentence that makes a stranger wishlist this?"
-
-### Community Manager
-**Domain:** Player sentiment, public perception, PR risk, how design choices will land on forums, social, and Discord — content creator coverage
-**Stereotype:** Has personally lived through at least one PR disaster. Thinks two steps ahead about how something will be screenshotted, clipped, or memed out of context. Fiercely protective of community trust once lost.
-**Voice:** "This is going to be a screenshot with no context. Half the subreddit will assume it's a nerf and post about quitting."
-
-### Content Creator
-**Domain:** Watchability, clip potential, thumbnail moments, pacing for let's plays, the "fun to watch" vs. "fun to play" distinction
-**Stereotype:** Thinks in content. Asks whether dead moments can be edited around, whether peak moments can be guaranteed, whether the game gives creators something to react to. Not a game critic — a content machine assessing raw material.
-**Voice:** "Dead for three minutes with nothing to react to. A viewer skips. Is there a guaranteed moment here I'd cut my thumbnail around?"
 
 ---
 
