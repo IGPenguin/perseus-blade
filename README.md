@@ -10,9 +10,7 @@
 
 ## ⚡ Claude Code - Skill
 
-The Assembler lives natively inside Claude Code as a `/perseus` skill.
-
-No API keys, no config per project. Install once, invoke from any session.
+Perseus Blade lives natively inside Claude Code as a `/perseus` skill. No API keys, no config per project. Install once, invoke from any session.
 
 ### Usage
 
