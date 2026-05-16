@@ -14,16 +14,6 @@ The Assembler lives natively inside Claude Code as a `/perseus` skill.
 
 No API keys, no config per project. Install once, invoke from any session.
 
-### Setup
-
-```bash
-git clone https://github.com/your-repo/perseus-blade.git
-cd perseus-blade
-./install-skill.sh
-```
-
-Restart Claude Code. That's it.
-
 ### Usage
 
 Type `/perseus` in any [Claude Code](https://claude.com/product/claude-code) session. The Assembler will:
@@ -32,7 +22,7 @@ Type `/perseus` in any [Claude Code](https://claude.com/product/claude-code) ses
 3. Propose the right strike team for the job, you confirm or swap
 4. Deliver feedback in the right mode
 
-### Modes
+### Operation Modes
 
 | Mode | When | Output |
 | :--- | :--- | :--- |
@@ -43,8 +33,9 @@ Type `/perseus` in any [Claude Code](https://claude.com/product/claude-code) ses
 
 Mode is auto-suggested based on context. Name it explicitly to skip the suggestion.
 
-### The Pool
+### Virtual Personas
 
+#### Studio Core
 | Persona | Domain | Tone
 | :--- | :--- | :--- |
 | Game Director | Vision, coherence, what belongs | *"This doesn't belong in our game. Cut it."* |
@@ -58,15 +49,23 @@ Mode is auto-suggested based on context. Name it explicitly to skip the suggesti
 | Tools Engineer | Pipeline, dev velocity, tooling gaps | *"We'll spend two weeks building tools before we can test it."* |
 | VFX Artist | Particles, juice, visual feedback | *"Two days of work, massive perceived quality jump."* |
 | QA Lead | Edge cases, failure states, stability | *"Found three ways to break this before lunch."* |
+| Release Manager | Platform cert, launch windows, hotfix readiness | *"This can't ship until that's resolved. Cert is in three days."* |
+
+#### Marketing & Community
+| Persona | Domain | Tone
+| :--- | :--- | :--- |
+| Marketing Consultant | Market positioning, hooks, what sells to strangers | *"Nobody outside this room knows why they should care."* |
 | Telemetry Analyst | Player behavior patterns, data | *"The engagement data on features like this is brutal."* |
+| Community Manager | Player sentiment, PR risk, how it lands publicly | *"This is going to be a screenshot with no context."* |
+| Content Creator | Watchability, clip potential, fun to watch vs. play | *"Dead for three minutes. A viewer skips."* |
+
+#### Players
+| Persona | Domain | Tone
+| :--- | :--- | :--- |
 | External Playtester | Fresh eyes, onboarding, confusion points | *"I didn't know I could do that."* |
 | Hardcore Fan | THIS specific project, its soul | *"Players who love this game for X will feel betrayed."* |
 | Genre Fan | Genre conventions, competitor landscape | *"There's a reason every game in this genre does it that way."* |
 | Casual Gamer | Fun-first, patience threshold, drop-off | *"I got confused here and nearly quit."* |
-| Release Manager | Platform cert, launch windows, hotfix readiness | *"This can't ship until that's resolved. Cert is in three days."* |
-| Marketing Consultant | Market positioning, hooks, what sells to strangers | *"Nobody outside this room knows why they should care."* |
-| Community Manager | Player sentiment, PR risk, how it lands publicly | *"This is going to be a screenshot with no context."* |
-| Content Creator | Watchability, clip potential, fun to watch vs. play | *"Dead for three minutes. A viewer skips."* |
 
 ### History
 
@@ -81,15 +80,28 @@ The skill adds `.perseus/` to your `.gitignore` automatically on first use.
 | `~/.claude/perseus/manifesto.md` | Persona pool, stereotypes, domains, strike team logic |
 | `~/.claude/perseus/papyrus.md` | Output format for each mode |
 
+### Setup
+
+```bash
+git clone https://github.com/your-repo/perseus-blade.git
+cd perseus-blade
+./install-skill.sh
+```
+
+Then restart Claude Code.
+
+### Updating
+
+```bash
+git pull && ./install-skill.sh
+```
+
+And restart Claude Code.
+
 ---
 
 ## 🔗 Related
 
-- 🔥 **[Hades Gate](https://github.com/IGPenguin/hades-gate)** - Claude Skill: Feature outline to deep orthogonal analysis (`/hades`)
-- 🌊 **[Styx Flow](https://github.com/IGPenguin/styx-flow)** - Claude Skill: Raw note chaos to prioritized task backlog (`/styx`)
+- 🔥 **[Hades Gate](https://github.com/IGPenguin/hades-gate)** - Claude Skill: Turn feature drafts into a deep orthogonal analysis (`/hades`)
+- 🌊 **[Styx Flow](https://github.com/IGPenguin/styx-flow)** - Claude Skill: Turn raw notes into a prioritized backlog (`/styx`)
 
----
-
-## 📄 License
-
-MIT, see [LICENSE.md](LICENSE.md)
