@@ -19,7 +19,7 @@ Always read fresh. Never rely on cached knowledge of their contents.
 
 ## Phase 2 — Read Project Context
 
-Silently attempt to read `CLAUDE.md` in the current working directory. If present, read it. This context is essential for the **Hardcore Fan**, who speaks specifically about THIS project. Also check for `TODOs.md` (Styx backlog) and note its presence — it may be the review target.
+Silently attempt to read `CLAUDE.md` in the current working directory. If present, read it. This context is essential for the **Hardcore Fan**, who speaks specifically about THIS project. Also check for `TODOs.md` (Styx backlog) and note its presence — it may be the review target. Also silently attempt to read `DESIGN.md` — if present, it is authoritative design intent that all personas should reference when their domain touches product direction, scope, or coherence.
 
 ## Phase 3 — Understand the Target
 
