@@ -22,14 +22,14 @@ Type `/perseus` in any [Claude Code](https://claude.com/product/claude-code) ses
 
 ### Operation Modes
 
+Mode is auto-suggested based on context. Name it explicitly to skip the suggestion.
+
 | Mode | When | Output |
 | :--- | :--- | :--- |
 | **Direct** | Quick raw reaction | One-liner per persona, straight to CLI |
 | **Inline** | Code, Hades paths, Styx tasks | Comments inserted in context with `[ROLE]:` prefix |
 | **Review** | Feature proposals, systems, designs | Structured sections per persona with hot take, reasoning, suggestions |
 | **Meeting** | Open debate, creative direction | Roundtable discussion, action items, verdict |
-
-Mode is auto-suggested based on context. Name it explicitly to skip the suggestion.
 
 ### Virtual Personas
 
