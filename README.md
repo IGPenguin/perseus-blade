@@ -33,37 +33,66 @@ Mode is auto-suggested based on context. Name it explicitly to skip the suggesti
 
 ### Virtual Personas
 
-#### Studio Core
-| Persona | Domain | Tone
+#### Studio Leadership
+| Persona | Domain | Tone |
 | :--- | :--- | :--- |
 | Game Director | Vision, coherence, what belongs | *"This doesn't belong in our game. Cut it."* |
 | Producer | Scope, timeline, reality check | *"How long does this actually take? The real number."* |
-| Engineer | Architecture, debt, implementation risk | *"That'll be a nightmare to maintain."* |
-| Game Designer | Systems, feedback loops, balance | *"The player has no signal their choice mattered."* |
+| Product Owner | Backlog, priorities, what ships vs. what waits | *"What metric does this move?"* |
+| Company CEO | Brand, strategy, calls no one else will make | *"This isn't a design question anymore. Here's the call."* |
+
+#### Creative
+| Persona | Domain | Tone |
+| :--- | :--- | :--- |
 | Art Director | Style coherence, visual identity | *"Players will read it as a bug."* |
-| Narrative Writer | Tone, character voice, world coherence | *"This character would never say that."* |
-| UI/UX Designer | Clarity, friction, discoverability | *"If they need a tooltip, we've already lost them."* |
+| Narrative Writer | Tone, character voice, story coherence | *"This character would never say that."* |
 | Sound Designer | SFX, ambient, audio game feel | *"A single impact sound here would triple the satisfaction."* |
-| Tools Engineer | Pipeline, dev velocity, tooling gaps | *"We'll spend two weeks building tools before we can test it."* |
 | VFX Artist | Particles, juice, visual feedback | *"Two days of work, massive perceived quality jump."* |
+| World Designer | World-building, lore, environmental storytelling | *"This area doesn't exist for a reason. What happened here?"* |
+
+#### Design & Systems
+| Persona | Domain | Tone |
+| :--- | :--- | :--- |
+| Game Design Lead | Systems, feedback loops, player agency | *"The player has no signal their choice mattered."* |
+| Balance Designer | Stat curves, formulas, numerical outlier detection | *"The curve breaks at level 12. Here's the adjusted formula."* |
+| UI/UX Designer | Clarity, friction, discoverability | *"If they need a tooltip, we've already lost them."* |
+| Tools Lead | Pipeline, dev velocity, tooling gaps | *"We'll spend two weeks building tools before we can test it."* |
+
+#### Engineering & Quality
+| Persona | Domain | Tone |
+| :--- | :--- | :--- |
+| Engineering Lead | Architecture, debt, implementation risk | *"That'll be a nightmare to maintain."* |
 | QA Lead | Edge cases, failure states, stability | *"Found three ways to break this before lunch."* |
 | Release Manager | Platform cert, launch windows, hotfix readiness | *"This can't ship until that's resolved. Cert is in three days."* |
 
-#### Marketing & Community
-| Persona | Domain | Tone
+#### Business & Investment
+| Persona | Domain | Tone |
 | :--- | :--- | :--- |
-| Marketing Consultant | Market positioning, hooks, what sells to strangers | *"Nobody outside this room knows why they should care."* |
-| Telemetry Analyst | Player behavior patterns, data | *"The engagement data on features like this is brutal."* |
+| Private Investor | ROI, market viability, risk, returns | *"What's the addressable market and why does this team capture it?"* |
+| Marketing Consultant | Positioning, hooks, what sells to strangers | *"Nobody outside this room knows why they should care."* |
+
+#### Community & Audience
+| Persona | Domain | Tone |
+| :--- | :--- | :--- |
 | Community Manager | Player sentiment, PR risk, how it lands publicly | *"This is going to be a screenshot with no context."* |
 | Content Creator | Watchability, clip potential, fun to watch vs. play | *"Dead for three minutes. A viewer skips."* |
+| Telemetry Analyst | Player behavior patterns, drop-off data | *"The engagement data on features like this is brutal."* |
+| Game Journalist | Press reception, review framing, score potential | *"I'd give this a 7. Here's the headline."* |
 
 #### Players
-| Persona | Domain | Tone
+| Persona | Domain | Tone |
 | :--- | :--- | :--- |
-| External Playtester | Fresh eyes, onboarding, confusion points | *"I didn't know I could do that."* |
 | Hardcore Fan | THIS specific project, its soul | *"Players who love this game for X will feel betrayed."* |
 | Genre Fan | Genre conventions, competitor landscape | *"There's a reason every game in this genre does it that way."* |
 | Casual Gamer | Fun-first, patience threshold, drop-off | *"I got confused here and nearly quit."* |
+| External Playtester | Fresh eyes, onboarding, confusion points | *"I didn't know I could do that."* |
+| Competitive Player | Meta optimization, dominant strategies, exploits | *"Your leaderboard meta will converge on this build within a week."* |
+| Speedrunner | Sequence breaks, skips, routing exploits | *"There's a sequence break here. You skip the entire third act."* |
+
+#### Inner Circle
+| Persona | Domain | Tone |
+| :--- | :--- | :--- |
+| Best Friend | Creator blind spots, honest emotional truth | *"The part you're most proud of is the part that lost me."* |
 
 ### History
 
