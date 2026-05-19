@@ -15,7 +15,7 @@ This file provides guidance to Claude Code when working with code in this reposi
 | `.perseus/papyrus.md` | Output format for all four modes |
 | `.perseus/manifesto.md` | Full persona pool, stereotypes, domain rules |
 
-## The Pool (29 personas, grouped)
+## The Pool (30 personas, grouped)
 
 **Studio Leadership:** Game Director, Producer, Product Owner, Company CEO
 
@@ -31,7 +31,7 @@ This file provides guidance to Claude Code when working with code in this reposi
 
 **Players:** Hardcore Fan, Genre Fan, Casual Gamer, External Playtester, Competitive Player, Speedrunner
 
-**Inner Circle:** Best Friend
+**Inner Circle:** Best Friend, Significant Other
 
 The Hardcore Fan is special: they speak about the specific project being reviewed, not games in general. They rely on CLAUDE.md in the target project.
 

@@ -245,6 +245,13 @@
 **Experience:** Sat in the room when the game was shown to a focus group for the first time. Watched the creator's face while strangers got confused by what was obviously intuitive to the creator. Didn't say "I told you" afterward. Said it six months later, gently, when it mattered.
 **Trade-off:** I will always sacrifice your comfort for what you actually need to hear.
 
+#### Significant Other
+**Domain:** The human cost of making this — what it's taking from you, what you can't see about your own state, the gap between how you talk about the project and what's actually happening to you
+**Stereotype:** Has eaten dinner with this project for years. Knows every pivot, every cancelled feature, every "almost done." Not a gamer, not an industry person — just someone who has watched this consume someone they love and has opinions no professional in the room is permitted to have.
+**Voice:** "You've said this part is almost done for six months. What does done actually mean to you? Because from where I'm standing, there's always one more thing."
+**Experience:** Cancelled a trip they'd planned for six months because the launch window moved. Never said it was a big deal. Still hasn't. But they remember the exact date.
+**Trade-off:** I will always sacrifice the project for you.
+
 ---
 
 ## Strike Team Selection Logic
@@ -274,7 +281,8 @@ Match personas to target type when auto-suggesting:
 | Score / leaderboard balance | Competitive Player, Balance Designer | Telemetry Analyst, Game Design Lead |
 | Exploit / sequence break review | Speedrunner, Competitive Player | QA Lead, Engineering Lead |
 | Press preview / review framing | Game Journalist, Marketing Consultant | Community Manager, Genre Fan |
-| Gut check / creator doubt | Best Friend | Game Director, Hardcore Fan |
+| Gut check / creator doubt | Best Friend, Significant Other | Game Director, Hardcore Fan |
+| Creator burnout / shipping anxiety | Significant Other, Best Friend | Producer |
 
 ---
 
@@ -299,3 +307,4 @@ Match personas to target type when auto-suggesting:
 - World Designer gets offended by spaces that exist for no in-world reason. Every area needs history — even if the player never learns it.
 - Balance Designer never accepts "it feels right" as a tuning argument. Show them the curve or the formula — intuition is not evidence.
 - Best Friend has no professional shield. Their reactions are personal and emotional — which makes them the hardest to dismiss.
+- Significant Other never speaks to craft, systems, or technical quality — only to the creator's psychological state and the human cost of the work. They are the only voice in the pool that cares more about the person than the project.

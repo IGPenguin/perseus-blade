@@ -93,6 +93,7 @@ Mode is auto-suggested based on context. Name it explicitly to skip the suggesti
 | Persona | Domain | Tone |
 | :--- | :--- | :--- |
 | Best Friend | Creator blind spots, honest emotional truth | *"The part you're most proud of is the part that lost me."* |
+| Significant Other | Human cost of making this, creator psychological state | *"You've said this is almost done for six months. What does done mean to you?"* |
 
 ### History
 
