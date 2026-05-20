@@ -37,7 +37,7 @@ Mode is auto-suggested based on context. Name it explicitly to skip the suggesti
 | Persona | Domain | Tone |
 | :--- | :--- | :--- |
 | Game Director | Vision, coherence, what belongs | *"This doesn't belong in our game. Cut it."* |
-| Producer | Scope, timeline, reality check | *"How long does this actually take? The real number."* |
+| Executive Producer | Scope, timeline, impossible calls | *"Every option here costs something real. Here's which one we survive."* |
 | Product Owner | Backlog, priorities, what ships vs. what waits | *"What metric does this move?"* |
 | Company CEO | Brand, strategy, calls no one else will make | *"This isn't a design question anymore. Here's the call."* |
 

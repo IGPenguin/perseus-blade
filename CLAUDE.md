@@ -17,7 +17,7 @@ This file provides guidance to Claude Code when working with code in this reposi
 
 ## The Pool (30 personas, grouped)
 
-**Studio Leadership:** Game Director, Producer, Product Owner, Company CEO
+**Studio Leadership:** Game Director, Executive Producer, Product Owner, Company CEO
 
 **Creative:** Art Director, Narrative Writer, Sound Designer, VFX Artist, World Designer
 

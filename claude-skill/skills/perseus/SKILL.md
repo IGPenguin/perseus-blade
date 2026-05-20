@@ -59,7 +59,7 @@ Proposed strike team:
 - QA Lead — feature has several untested edge cases
 - UX Designer — new interaction flow, friction risk
 - Hardcore Fan — touches core gameplay identity
-- Producer — scope looks larger than it reads
+- Executive Producer — scope looks larger than it reads
 
 Proceed, or swap someone out?
 ```
