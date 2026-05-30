@@ -48,6 +48,10 @@ The Hardcore Fan is special: they speak about the specific project being reviewe
 
 Each `/perseus` session saves to `.perseus/YYYY-MM-DD-HHMM-slug.md` in the current working directory. The skill ensures `.perseus/` is gitignored on first use.
 
+## Standing Positions (Memory)
+
+The skill maintains `.perseus/positions.md`, holding each persona's current stance on the project, carried across sessions. Personas load it on start (Phase 2) and reconcile it after delivering output (Phase 7): they hold, revise, or escalate a position rather than re-arguing settled ground. Rule is supersede, never append: one Active stance per persona per issue, and a concern raised session after session grows louder. Lives under the already-gitignored `.perseus/`.
+
 ## The Skill
 
 Installs to `~/.claude/plugins/cache/local/perseus/1.0.0/`. User-editable config lives at:

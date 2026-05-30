@@ -21,6 +21,8 @@ Always read fresh. Never rely on cached knowledge of their contents.
 
 Silently attempt to read `CLAUDE.md` in the current working directory. If present, read it. This context is essential for the **Hardcore Fan**, who speaks specifically about THIS project. Also check for `TODOs.md` (Styx backlog) and note its presence — it may be the review target. Also silently attempt to read `DESIGN.md` — if present, it is authoritative design intent that all personas should reference when their domain touches product direction, scope, or coherence.
 
+Finally, silently attempt to read `.perseus/positions.md` (the Standing Positions file). If present, load it: it records each persona's current stance on this project from past sessions. Personas use it to hold, revise, or escalate a position rather than re-arguing settled ground from scratch. This is the studio's memory.
+
 ## Phase 3 — Understand the Target
 
 Identify what is being reviewed. It could be:
@@ -90,10 +92,28 @@ Personas speak to each other. They may agree, push back, reference each other by
 - No persona summarizes what the user already said — they react, they don't recap
 - Hardcore Fan always references this specific project from CLAUDE.md. If CLAUDE.md is absent, they flag it before speaking
 - Only speak when there is genuine signal. A persona with nothing meaningful to say stays silent
+- **Standing position:** if a persona has an Active stance in `positions.md` relevant to this target, they open from it (hold, revise, or escalate) instead of starting cold. Use the Standing Position callout from `papyrus.md`. A position held unaddressed across sessions gets louder, not quieter
 - **Hades output:** skim all six paths, focus on the Oracle recommendation, flag strong feelings on specific paths only when the reaction is strong
 - **Styx tasks:** comment and suggest priority changes with reasoning, never rescore directly
 
-## Phase 7 — Save History
+## Phase 7 — Update Standing Positions
+
+After delivering the output, silently reconcile `.perseus/positions.md`. This is what gives the studio a memory across sessions.
+
+**Read first, then update.** For each persona who spoke this session AND raised a *durable, project-level* concern (not a one-off note about the specific target), record or reconcile their stance:
+
+- **New stance:** the persona has no prior position on this issue. Add an Active entry dated today, Status `Open`, Revisits `0`.
+- **Hold:** their prior position still stands and nothing this session changed it. Keep the original `Since` date, increment `Revisits`, set Status `Holding`, refresh `Last basis`.
+- **Revise:** new context shifted their view. Replace the position text, set Status `Revised`, note `(revised from: ...)`, reset the date.
+- **Resolve:** the concern was addressed. Move the entry to the `## Resolved` section with the date and a one-line note on how.
+
+**Discipline: supersede, never append.** Each persona holds at most one Active stance per issue. Never stack duplicates. A position whose `Revisits` count climbs while still `Open` is escalating signal: surface it, do not bury it.
+
+Only persist stances that are *durable and project-level*. A persona reacting to one line of dialogue does not earn a standing position. A persona who believes the save system is the launch risk does.
+
+Write the file using the Standing Positions schema in `papyrus.md`. Do this silently. If the write fails, silently ignore it.
+
+## Phase 8 — Save History
 
 After delivering the output, silently save a session record.
 

@@ -134,3 +134,41 @@ In plain text:
 ## Verdict
 [What the team landed on. Unresolved disagreements stated explicitly, not smoothed over.]
 ```
+
+---
+
+## Standing Positions — `.perseus/positions.md`
+
+The studio's memory. One file per project, holding each persona's current stance. Reconciled in Phase 7 of every session. Supersede, never append: one Active stance per persona per issue.
+
+```
+# Perseus Blade — Standing Positions
+*Project: [name] | Last updated: YYYY-MM-DD*
+
+## Active
+
+### [Role]
+- **Position:** [the stance in one or two lines, in their voice]
+- **Since:** YYYY-MM-DD | **Status:** Open / Holding / Revised | **Revisits:** N
+- **Last basis:** [the session or evidence that set or last confirmed it]
+
+[repeat per persona with an active stance]
+
+## Resolved
+
+- **[Role]** | [Position] | resolved YYYY-MM-DD: [how it was addressed]
+```
+
+### Standing Position Callout
+
+When a persona with an Active stance speaks to a related target, they open from it instead of cold. Prefix their take:
+
+```
+> *Standing position (since YYYY-MM-DD, held x N):* "[the stance]"
+```
+
+Their reaction then holds, revises, or escalates it. In Direct mode, compress to one line:
+
+```
+[ROLE] (holding since YYYY-MM-DD): [one-liner]
+```
