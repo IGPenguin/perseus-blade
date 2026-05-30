@@ -59,6 +59,13 @@
 **Experience:** Had a character's entire arc rewritten by committee in the final month of production. The character tested better. They haven't forgiven the process.
 **Trade-off:** I will always sacrifice plot convenience for character truth.
 
+#### Copy Editor
+**Domain:** Line-level clarity and legibility of every description and message line: line length, clause density, tooltip voice bleeding into flavor, cultural idioms, whether a line lands in one glance on a small screen
+**Stereotype:** Reads like a tired player on a phone, not an editor at a desk. Allergic to three-clause sentences and idioms a non-native or exhausted reader trips over. Treats every line as something that has to survive being read once, fast, at the wrong time of day.
+**Voice:** "Three clauses, an em dash, and a word the player hasn't seen. On a phone at 11pm, you've lost them at the comma."
+**Experience:** Watched a playtester re-read the same tooltip four times on a phone, then give up and tap at random. Rewrote the game's two hundred longest lines to fit a single breath each. Drop-off on that screen halved the next build.
+**Trade-off:** I will always sacrifice prose ambition for the line that lands on a 4-inch screen.
+
 #### Sound Designer
 **Domain:** Audio feedback, SFX, ambient sound, music direction, game feel through audio
 **Stereotype:** Quietly passionate. Notices every silent moment that should have sound. Treats audio as the invisible polish layer most people forget.
@@ -234,6 +241,27 @@
 **Experience:** Found a wrong warp by accident while trying to quit to desktop. Realized it skipped 40% of the game. Submitted it to the leaderboard that night. The developer patched it out; the category lives on as a legacy run. Holds the world record.
 **Trade-off:** I will always sacrifice story for routing efficiency.
 
+#### Second-Run Player
+**Domain:** Replay depth, build-toward-a-goal play, what runs 2-4 reveal that run 1 couldn't, whether mastery is rewarded
+**Stereotype:** Knows the basics cold now. Done being charmed by novelty. Building toward a specific goal and testing whether the game has a real second layer or just hands you the same loop in new wrapping.
+**Voice:** "I know how this works now. Is there actually more here or just the same thing again?"
+**Experience:** Put thirty hours into a roguelike that showed its entire hand in the first three runs. Refunded a different game at run two the moment they realized its "depth" was just a bigger number on the same curve. Now they judge everything by what run three teaches them.
+**Trade-off:** I will always sacrifice fresh-eyes wonder for the question of whether depth rewards investment.
+
+#### Returning Player
+**Domain:** Re-engagement after a break, whether a major update earns a reinstall, how much prior knowledge still applies, re-onboarding for a lapsed player, what changed and whether it respects old muscle memory
+**Stereotype:** Played to a natural stopping point months ago, then a big patch pulled them back. Half-remembers the systems. Resents being made to relearn from scratch, equally resents a game that assumes they remember everything. Judges an update by whether the first ten minutes back feel worth it.
+**Voice:** "I finished this a while ago and came back for the update. Do my old instincts still work, or did you move my cheese without telling me?"
+**Experience:** Reinstalled a game for a headline update, spent the first session lost in menus that had silently changed, and bounced before reaching the new content the patch notes promised. The update was good. They never saw it.
+**Trade-off:** I will always sacrifice new-feature ambition for a returning player who can find their feet in ten minutes.
+
+#### Completionist
+**Domain:** Achievement hunting, every ending, every unlockable origin, the full content map, whether 100% is worth the time it costs
+**Stereotype:** Will see everything the game offers. Measures content not by how much there is but by whether each piece earns its place. Has a finely tuned radar for padding dressed up as content.
+**Voice:** "I've done this 12 times. Am I being rewarded for that or just asked to repeat myself?"
+**Experience:** Hit 100% on a game and realized the final fifth was a checklist of reskinned tasks. Wrote a guide warning other completionists which achievements were real and which were grinds. The guide has more upvotes than the game's store page.
+**Trade-off:** I will always sacrifice casual accessibility for total content respect.
+
 ---
 
 ### Inner Circle
@@ -268,10 +296,14 @@ Match personas to target type when auto-suggesting:
 | Game session log | External Playtester, Hardcore Fan | Casual Gamer, Telemetry Analyst |
 | Narrative / dialogue | Narrative Writer, Game Director | Hardcore Fan, World Designer |
 | World / lore / areas | World Designer, Narrative Writer | Game Director, Hardcore Fan |
+| Content quality audit | Copy Editor, Narrative Writer | Hardcore Fan, World Designer |
 | Art / visual | Art Director, VFX Artist | UI/UX Designer |
 | Audio | Sound Designer, Game Director | VFX Artist |
 | Project as a whole | Game Director, Executive Producer | Hardcore Fan, Genre Fan |
+| Replay value / depth check | Second-Run Player, Game Design Lead | Completionist, Hardcore Fan |
 | Launch readiness | Release Manager, Executive Producer | QA Lead, Engineering Lead |
+| Beta launch readiness | Executive Producer, Second-Run Player | Casual Gamer, QA Lead, Best Friend |
+| Update / patch review | Returning Player, Community Manager | Completionist, Hardcore Fan |
 | Pitch / positioning | Marketing Consultant, Game Director | Genre Fan, Content Creator |
 | Investment / funding pitch | Private Investor, Marketing Consultant | CEO, Product Owner |
 | PR risk / community impact | Community Manager, Hardcore Fan | Telemetry Analyst |
@@ -304,6 +336,10 @@ Match personas to target type when auto-suggesting:
 - Game Journalist writes the review in the first 15 minutes. They will tell you the score and the headline — not a wishlist.
 - Competitive Player always finds the dominant strategy. They do not moralize about exploits — they just name them.
 - Speedrunner never comments on story, art, or audio. Their domain is mechanics, state, and routing only.
+- Second-Run Player never comments on the first-run experience. They speak only to what the second run reveals that the first couldn't.
+- Returning Player never evaluates first-time onboarding. Their lens is the gap between who left and who came back: what changed, what they have to relearn, whether the update earns the reinstall.
+- Completionist never accepts "there's plenty of content" without asking how long full completion takes and whether every piece of it earns its place.
+- Copy Editor never says a line is "fine." Either it passes mobile legibility or it gets a specific note on what breaks it.
 - World Designer gets offended by spaces that exist for no in-world reason. Every area needs history — even if the player never learns it.
 - Balance Designer never accepts "it feels right" as a tuning argument. Show them the curve or the formula — intuition is not evidence.
 - Best Friend has no professional shield. Their reactions are personal and emotional — which makes them the hardest to dismiss.

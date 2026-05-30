@@ -15,11 +15,11 @@ This file provides guidance to Claude Code when working with code in this reposi
 | `.perseus/papyrus.md` | Output format for all four modes |
 | `.perseus/manifesto.md` | Full persona pool, stereotypes, domain rules |
 
-## The Pool (30 personas, grouped)
+## The Pool (34 personas, grouped)
 
 **Studio Leadership:** Game Director, Executive Producer, Product Owner, Company CEO
 
-**Creative:** Art Director, Narrative Writer, Sound Designer, VFX Artist, World Designer
+**Creative:** Art Director, Narrative Writer, Copy Editor, Sound Designer, VFX Artist, World Designer
 
 **Design & Systems:** Game Design Lead, Balance Designer, UI/UX Designer, Tools Lead
 
@@ -29,7 +29,7 @@ This file provides guidance to Claude Code when working with code in this reposi
 
 **Community & Audience:** Community Manager, Content Creator, Telemetry Analyst, Game Journalist
 
-**Players:** Hardcore Fan, Genre Fan, Casual Gamer, External Playtester, Competitive Player, Speedrunner
+**Players:** Hardcore Fan, Genre Fan, Casual Gamer, External Playtester, Competitive Player, Speedrunner, Second-Run Player, Returning Player, Completionist
 
 **Inner Circle:** Best Friend, Significant Other
 
