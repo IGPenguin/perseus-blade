@@ -19,7 +19,7 @@ Always read fresh. Never rely on cached knowledge of their contents.
 
 ## Phase 2 — Read Project Context
 
-Silently attempt to read `CLAUDE.md` in the current working directory. If present, read it. This context is essential for the **Hardcore Fan**, who speaks specifically about THIS project. Also check for `TODOs.md` (Styx backlog) and note its presence — it may be the review target. Also silently attempt to read `DESIGN.md` — if present, it is authoritative design intent that all personas should reference when their domain touches product direction, scope, or coherence.
+Silently attempt to read `CLAUDE.md` in the current working directory. If present, read it. This context is essential for the **Hardcore Fan**, who speaks specifically about THIS project. Also check for `TODOs.md` (or `docs/TODOs.md` if not in root) and note its presence — it may be the review target. Also silently attempt to read `DESIGN.md`; if not found, try `docs/DESIGN.md` — if present, it is authoritative design intent that all personas should reference when their domain touches product direction, scope, or coherence. Also silently attempt to read `docs/GENESIS.md`, `docs/CONTENT.md`, and `docs/WIKI.md` if present — these are project lore, writing rules, and public documentation that personas may draw on.
 
 Finally, silently attempt to read `.perseus/positions.md` (the Standing Positions file). If present, load it: it records each persona's current stance on this project from past sessions. Personas use it to hold, revise, or escalate a position rather than re-arguing settled ground from scratch. This is the studio's memory.
 
